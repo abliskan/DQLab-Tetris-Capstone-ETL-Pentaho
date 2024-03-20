@@ -5,9 +5,13 @@ In this project, I will extract data from many source (e.g official BPS, statist
 
 ## Installation Guide
 1. Clone the repository from GitHub:
+```
 git@github.com:abliskan/DQLab-Tetris-Capstone-Project-2024.git
+```
 2. Change the working directory to the project folder:
+```
 cd DQLab-Tetris-Capstone-Project-2024
+```
 3. Installing Java, Pentaho, and MySQL
 ### Java
 - Download and install the latest Java JDK (i'm using java 18, you can use other version)
@@ -15,15 +19,15 @@ cd DQLab-Tetris-Capstone-Project-2024
 - Download and install "Pentaho Community Edition"
 ### MySQL
 - Download and install "MySQL Community Downloads"
-4. Clone this repo
-git@github.com:abliskan/DQLab-Tetris-Capstone-ETL-Pentaho.git
-5. Change the working directory to the project folder:
-cd DQLab-Tetris-Capstone-ETL-Pentaho
-6. Extract the files [file_name].ktr 
-7. Create a new database for the transformed data
+4. Extract the files [file_name].ktr 
+5. Create a new database for the transformed data
+```
 create database tetris-capstone-raw-data;
-8. Connect to the database 
+```
+6. Connect to the database 
+```
 USE database tetris-capstone-raw-data;
+```
 
 ## Dataset Preview
 - The dataset before tranformation detail can be see in raw-data folder
