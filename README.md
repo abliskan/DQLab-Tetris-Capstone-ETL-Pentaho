@@ -35,16 +35,16 @@ USE database tetris-capstone-raw-data;
 ## ETL process
 ### Extract from API Data Source - Open Data Jabar
 ![ETL_API](https://github.com/abliskan/DQLab-Tetris-Capstone-ETL-Pentaho/blob/main/asset/images/Capture-1-1-pentaho.PNG)
-data source 1: [open-data-jabar, "Produksi Perikanan Budidaya Rumput Laut Berdasarkan Kabupaten/Kota di Jawa Barat"](https://opendata.jabarprov.go.id/id/dataset/produksi-perikanan-budidaya-rumput-laut-berdasarkan-kabupatenkota-di-jawa-barat)
+- data source 1: [open-data-jabar, "Produksi Perikanan Budidaya Rumput Laut Berdasarkan Kabupaten/Kota di Jawa Barat"](https://opendata.jabarprov.go.id/id/dataset/produksi-perikanan-budidaya-rumput-laut-berdasarkan-kabupatenkota-di-jawa-barat)
 
 ### Extract from Tabular Data Source - Statistik KKP
 ![ETL_csv_1](https://github.com/abliskan/DQLab-Tetris-Capstone-ETL-Pentaho/blob/main/asset/images/Capture-1-2-pentaho.PNG)
-data source 2: [statistik-KKP, "Produksi Perikanan Budidaya"](https://statistik.kkp.go.id/home.php?m=prod_ikan_budidaya_kab#panel-footer)
-data source 3: [statistik-KKP, "Data Luas Lahan Perikanan Budidaya Rumput Laut Menurut Provinsi (satuan: m2)"](https://statistik.kkp.go.id/home.php?m=luaslahan&i=7#panel-footer-kpda)
+- data source 2: [statistik-KKP, "Produksi Perikanan Budidaya"](https://statistik.kkp.go.id/home.php?m=prod_ikan_budidaya_kab#panel-footer)
+- data source 3: [statistik-KKP, "Data Luas Lahan Perikanan Budidaya Rumput Laut Menurut Provinsi (satuan: m2)"](https://statistik.kkp.go.id/home.php?m=luaslahan&i=7#panel-footer-kpda)
 
 ### Extract from Tabular Data Source - BPS Statistik
 ![ETL_csv_2](https://github.com/abliskan/DQLab-Tetris-Capstone-ETL-Pentaho/blob/main/asset/images/Capture-1-3-pentaho.PNG)
-data source 4: [BPS, "Kode Relasi BPS dengan Kemendagri"](https://sig.bps.go.id/bridging-kode/index)
+- data source 4: [BPS, "Kode Relasi BPS dengan Kemendagri"](https://sig.bps.go.id/bridging-kode/index)
 
 ### Tranformation and Load dataset
 ![ETL_csv_3](https://github.com/abliskan/DQLab-Tetris-Capstone-ETL-Pentaho/blob/main/asset/images/Capture-3-mysql.PNG)
