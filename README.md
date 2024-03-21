@@ -1,16 +1,16 @@
 # DQLab-Tetris-Capstone-ETL-Pentaho
-This repo contains the data visualization part (1/2) and other related files to submit for DQLab Tetris Batch IV program.
+This repo contains the ETL process part (2/2) and other related files to submit for DQLab Tetris Batch IV program.
 This code is an ETL process for manage seaweed dataset using pentaho and mysql.
 In this project, I will extract data from many source (e.g official BPS, statistik-kkp, and open data jabar) as JSON and CSV files and load into mysql database.
 
 ## Installation Guide
 1. Clone the repository from GitHub:
 ```
-git@github.com:abliskan/DQLab-Tetris-Capstone-Project-2024.git
+git@github.com:abliskan/DQLab-Tetris-Capstone-ETL-Pentaho.git
 ```
 2. Change the working directory to the project folder:
 ```
-cd DQLab-Tetris-Capstone-Project-2024
+cd DQLab-Tetris-Capstone-ETL-Pentaho
 ```
 3. Installing Java, Pentaho, and MySQL
 ### Java
